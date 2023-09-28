@@ -1,10 +1,16 @@
-﻿namespace IntroMac
+﻿namespace SelectionExercises
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, Mac users");
+            SelectionExercises.FizzBuzz(10);
+            SelectionExercises.VowelConsonant();
+            SelectionExercises.DiceRoller();
+            SelectionExercises.GetAngleType(180);
+            SelectionExercises.RockPaperScissors();
+            SelectionExercises.TriangleIdentifier(5, 5, 5);
+            SelectionExercises.TryCalculateTotalSales();
         }
     }
 }
